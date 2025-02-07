@@ -2,7 +2,8 @@
 
 'use client'
 
-import ProtectedRoute from "@/app/components/protected/page";
+
+import ProtectedRoute from "@/app/components/protectedRoute";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
